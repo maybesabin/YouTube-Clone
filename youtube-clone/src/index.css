@@ -17,6 +17,25 @@
   border-radius: 15px;
 }
 
+.text-box{
+  background-color: #f2f2f2;
+  padding: 4px 15px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: .4s;
+}
+
+.text-box:hover{
+  transition: .4s;
+  background-color: #e1dfdf;
+  cursor: pointer;
+}
+
+.text-box :active{
+  background-color: black;
+  color: white;
+}
 
 .hide-on-pc{
   display: none;

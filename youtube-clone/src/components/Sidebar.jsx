@@ -10,7 +10,7 @@ import pfp6 from '../assets/pfp6.png'
 
 const Sidebar = () => {
   return (
-    <div className='md:block w-[240px] overflow-y-scroll overflow-x-scroll h-full py-6 absolute md:relative z-9 translate-x-[-240] md:translate-x-0 transition-all'>
+    <div className='fixed top-0 left-0 overflow-y-scroll h-[100vh] w-[320px] pb-4 pt-[6rem] z-9'>
 
       <div className='pl-6 flex flex-col gap-2 bg-white'>
         <div className='flex items-center justify-start cursor-pointer gap-4 hover:bg-[#f2f2f2] rounded-[15px] p-2'>
