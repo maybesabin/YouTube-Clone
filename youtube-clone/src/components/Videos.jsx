@@ -18,7 +18,7 @@ import logo6 from '../assets/pfp6.png'
 
 const Videos = () => {
   return (
-    <div className='absolute top-[17%] left-[60%] gap-1 overflow-x-hidden translate-x-[-50%] w-[80%] pb-6 overflow-y-scroll flex items-start justify-start flex-wrap'>
+    <div className='absolute top-[17%] left-[60%] gap-1 overflow-x-hidden translate-x-[-50%] w-[80%] pb -6 overflow-y-scroll flex items-start justify-start flex-wrap'>
         {/* Cards */}
 
         <div className='w-[370px] cursor-pointer pb-9 flex gap-4 flex-col items-start justify-center'>
